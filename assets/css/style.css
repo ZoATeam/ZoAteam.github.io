@@ -228,6 +228,7 @@ html {
 /*contact*/
 .contact-content {
     margin-top: 48px;
+    margin-bottom: 48px;
 }
 .contact-info {
     font-size: 18px;
@@ -344,6 +345,9 @@ html {
 }
 #buy-ticket:hover {
     opacity: 0.8;
+}
+#buy-ticket a {
+    text-decoration: none;
 }
 .model-footer {
     text-align: right;
