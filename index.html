@@ -1,0 +1,201 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ZoA TEAM</title>
+     <link rel="icon" href="data:image/png;base64,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" type="image/x-icon" />
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+ </head>
+ <body>
+     <div id="main">
+         <div id="header">
+            <!--begin nav-->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#tour">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-hand-point-down"></i>  
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Achievements</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--end nav-->
+            <!--search button-->
+            <div class="search-bt">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <!--end search button-->
+         </div>
+
+         <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">ZoA Team</h2>
+                    <div class="text-description">We had the best time playing together</div>
+            </div>
+         </div>
+
+         <div id="content">
+             <!-- about section-->
+            <div id="team" class="content-section">
+                <h2 class="section-heading">ZoA Team</h2>
+                <p class="section-sub-heading">We love valorant</p>
+                <p class="about-text">ZoA Team is a community group about Valorant.With the ideal of becoming one of the famous groups, the top Valorant groups will make the Valorant community strong. We always try and improve to match the market. Established in the beginning of 2022, up to now, our group has been increasingly expanded, receiving more and more members. Currently, in the near future, the group is aiming to become one of the largest and strongest Valorant groups.</p>
+                <div class="member-list">
+                    <!--member 1-->
+                    <div class="column col-third text-center">
+                        <p class="member-name">ZoA iambigdog</p>
+                        <img src="./assets/img/team/hieu-member.jpg" alt="Name" class="member-img">
+                    </div>
+                    <!--member 2-->
+                    <div class="column col-third text-center">
+                        <p class="member-name">ZoA iamtien (leader)</p>
+                        <img src="./assets/img/team/tien-member.jpg" alt="Name" class="member-img">
+                    </div>
+                    <!--member 3-->
+                    <div class="column col-third text-center">
+                        <p class="member-name">ZoA CheeseZ</p>
+                        <img src="./assets/img/team/nhan-member.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- tour section-->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">REGISTER</h2>
+                    <p class="section-sub-heading text-white">Remember to register!</p>
+                    <!--ticket-->
+                    <!--places-->
+                    <div class="row place-list">
+                        <div class="column col-third register">
+                            <img src="./assets/img/places/register-la-gi.png" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Register to become a member of ZoA</h3>
+                                <button class="btn js-buy-ticket button-register">Register</button>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact section-->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading"></p>
+                <div class="row contact-content">
+                    <div class="column col-half contact-info">
+                        <p><i class="ti-location-pin"></i>HaNoi, VietNam</p>
+                        <p><i class="ti-mobile"></i>Phone: +84 965340558</p>
+                        <p><i class="ti-email"></i>Email: zoa@mail.com</p>
+                    </div>
+                    <div class="column col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="column col-half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="column col-half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                                
+                            </div>
+                            <div class="row mt-8">
+                                <div class="column col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="btn pull-right mt-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--end content section-->
+            <div class="map-section">
+                <img src="./assets/img/map/banner-map.jpg" alt="map">
+            </div>
+         </div>  
+            <!--end map-->
+         <div id="footer">
+            <div class="socials-list">
+                <a href="https://www.facebook.com/profile.php?id=100005081103849" target="_blank" rel="noopener"><i class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/m14tien/" target="_blank" rel="noopener"><i class="ti-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCHwhyvCErf50KJUZ3rMFXsw/videos" target="_blank" rel="noopener"><i class="ti-youtube"></i></a>
+                <a href="https://twitter.com/tieesn14" target="_blank" rel="noopener" ><i class="ti-twitter-alt"></i></a>
+            </div>
+            <p class="copyright">Powered by ZoA</p>
+         </div>
+     </div>
+     <div class="model js-model">
+         <div class="model-container js-model-container">
+             <div class="model-close js-model-close">
+                 <i class="ti-close">
+                 </i>
+             </div>
+
+             <header class="model-header">
+                 <i class="model-heading-icon ti-marker-alt"></i>
+                 Register
+             </header>
+
+             <div class="model-body">
+                 <label for="tk-quantity" class="model-label">
+                     <i class="ti-user"></i>
+                     Full Name
+                 </label>
+                 <input id="tk-quantity" type="text" class="model-input" placeholder="Full Name">
+
+                 <label for="tk-email" class="model-label">
+                    <i class="ti-email"></i>
+                    Email
+                </label>
+                <input id="tk-email" type="text" class="model-input" placeholder="Enter email">
+                <button id="buy-ticket">
+                    <i class="ti-check"></i>
+                </button>
+             </div>
+             <footer class="model-footer">
+                 <p class="model-help">need <a href="">help?</a></p>
+             </footer>
+         </div>
+     </div>
+     <script>
+         const buyBtns = document.querySelectorAll('.js-buy-ticket')
+         const model = document.querySelector('.js-model')
+         const modelContainer =document.querySelector('.js-model-container')
+         const modelClose =document.querySelector('.js-model-close')
+
+         //hàm hiển thị model mua vé
+         function showBuyTickets() {
+             model.classList.add('open')
+         }
+
+         //ham an model mau ve
+         function hidenBuyTickets() {
+             model.classList.remove('open')
+         }
+        // lặp qua từng thẻ button
+         for(const buyBtn of buyBtns){
+             buyBtn.addEventListener('click', showBuyTickets)
+         }
+        // nghe khi click vao button 
+         modelClose.addEventListener('click', hidenBuyTickets)
+
+         model.addEventListener('click', hidenBuyTickets)
+
+         modelContainer.addEventListener('click', function (event){
+             event.stopPropagation()
+         })
+     </script>
+ </body>
+ </html>
