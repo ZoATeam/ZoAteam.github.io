@@ -1,0 +1,47 @@
+/*mobile*/
+@media (max-width: 740px) {
+    .s-col-full ,
+    .s-full-width {
+        width: 100%;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header .search-bt {
+        display: none;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: rgb(33, 154, 202);
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding-left: 42px;
+    }
+    #content .member-item {
+        padding-top: 30px;
+        width: 100%;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+
+}
